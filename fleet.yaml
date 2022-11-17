@@ -1,4 +1,4 @@
-namespace: vault
+namespace: yolo
 
 helm:
   releaseName: vault
