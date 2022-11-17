@@ -1,0 +1,7 @@
+namespace: vault
+
+helm:
+  releaseName: hashicorp/vault
+  chart: hashicorp/vault
+  repo: https://helm.releases.hashicorp.com
+  version: 0.22.1
