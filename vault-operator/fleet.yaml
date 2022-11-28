@@ -12,5 +12,5 @@ helm:
         value: "true"
     nodeSelector:
         "vault_in_k8s": "true"
-targetCustomizations:
-- name: fleet-local
+# targetCustomizations:
+# - name: fleet-local
