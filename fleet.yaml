@@ -1,7 +1,0 @@
-defaultNamespace: yolo
-
-helm:
-  releaseName: vault
-  chart: vault
-  repo: https://helm.releases.hashicorp.com
-  version: 0.22.1
