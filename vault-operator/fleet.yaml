@@ -1,0 +1,16 @@
+defaultNamespace: fgtech-vault-operator
+helm:
+  releaseName: vault-secret-webhook
+  repo: https://kubernetes-charts.banzaicloud.com
+  chart: vault-secret-webhook
+  version: 1.16.0
+  values:
+    tolerations:
+      - effect: NoExecute
+        key: vault_in_k8s
+        operator: Equal
+        value: "true"
+    nodeSelector:
+        "vault_in_k8s": "true"
+targetCustomizations:
+- name: fleet-local
