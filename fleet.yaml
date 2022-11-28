@@ -1,4 +1,4 @@
-namespace: yolo
+defaultNamespace: yolo
 
 helm:
   releaseName: vault
